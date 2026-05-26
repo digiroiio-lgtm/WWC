@@ -2,6 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://example.com/</loc></url>
   <url><loc>https://example.com/yurtdisi-egitim/</loc></url>
+  <url><loc>https://example.com/yurtdisi-kariyer/</loc></url>
   <url><loc>https://example.com/dil-okullari/</loc></url>
   <url><loc>https://example.com/work-and-study/</loc></url>
   <url><loc>https://example.com/work-and-travel/</loc></url>
@@ -24,13 +25,7 @@
   <url><loc>https://example.com/gizlilik-politikasi/</loc></url>
   <url><loc>https://example.com/kvkk/</loc></url>
   <url><loc>https://example.com/cerez-politikasi/</loc></url>
-  <url><loc>https://example.com/kanada-dil-okullari/</loc></url>
-  <url><loc>https://example.com/ingiltere-dil-okullari/</loc></url>
-  <url><loc>https://example.com/malta-dil-okullari/</loc></url>
-  <url><loc>https://example.com/irlanda-dil-okullari/</loc></url>
-  <url><loc>https://example.com/dubai-dil-okullari/</loc></url>
-  <url><loc>https://example.com/kanada-work-and-study/</loc></url>
-  <url><loc>https://example.com/almanya-ausbildung/</loc></url>
-  <url><loc>https://example.com/almanya-81a-calisma-izni/</loc></url>
-  <url><loc>https://example.com/polonya-universite/</loc></url>
+  <url><loc>https://example.com/yurtdisi-staj-programlari/</loc></url>
+  <url><loc>https://example.com/sef-kariyer-programlari/</loc></url>
+  <url><loc>https://example.com/hospitality-careers/</loc></url>
 </urlset>

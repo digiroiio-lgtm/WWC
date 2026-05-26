@@ -3,56 +3,102 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>WWC Yurtdışı Eğitim Danışmanlığı | WWC</title>
-  <meta name="description" content="SEO ve güven odaklı yurtdışı eğitim platformu">
-  <style>
-body{font-family:Arial,sans-serif;max-width:900px;margin:0 auto;padding:24px;line-height:1.6;color:#222}
-a{color:#0353a4;text-decoration:none}a:hover{text-decoration:underline}
-nav ul,.cta ul{padding-left:20px}
-.meta{font-size:.95rem;color:#555}
-section{margin-top:24px}
+  <title>WWC Global Education &amp; Career Platform | WWC</title>
+  <meta name="description" content="Uluslararası eğitim, kariyer, gastronomi ve global çalışma fırsatları platformu">
+  
+<style>
+:root{
+  --bg:#0f1115;
+  --bg-soft:#171a21;
+  --card:#1d2230;
+  --gold:#c7a86d;
+  --text:#f5f1e8;
+  --muted:#cfc8bb;
+  --light:#f7f7f7;
+  --light-text:#1c1f27;
+  --accent:#d8b679;
+  --border:rgba(255,255,255,.14);
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,Arial,sans-serif;line-height:1.65;background:#f4f1ea;color:#1f2430}
+a{color:#8b5e1a;text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+.hero{background:linear-gradient(135deg,#12151d 0%,#1c2230 55%,#2a1f16 100%);color:var(--text);padding:72px 0 56px}
+.hero h1{font-size:clamp(2rem,4vw,3.6rem);line-height:1.1;margin:0 0 16px}
+.hero p{max-width:820px;font-size:1.08rem;color:var(--muted);margin:0 0 22px}
+.kicker{letter-spacing:.18em;text-transform:uppercase;font-size:.78rem;color:var(--gold);font-weight:700;margin-bottom:14px}
+.buttons{display:flex;flex-wrap:wrap;gap:12px;margin:20px 0 0}
+.button{display:inline-block;padding:12px 18px;border-radius:999px;border:1px solid var(--gold);background:var(--gold);color:#16181d;font-weight:700}
+.button.secondary{background:transparent;color:var(--text)}
+.topnav{display:flex;flex-wrap:wrap;gap:10px;list-style:none;padding:0;margin:0 0 28px}
+.topnav a{display:inline-block;padding:8px 14px;border-radius:999px;border:1px solid rgba(255,255,255,.16);color:#fff;background:rgba(255,255,255,.05)}
+main section{padding:44px 0;border-bottom:1px solid rgba(31,36,48,.08)}
+main h2{font-size:1.8rem;margin:0 0 14px;color:#131722}
+main p.lead{font-size:1.05rem;color:#434a59;max-width:860px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;margin-top:20px}
+.card{background:#fff;border:1px solid rgba(22,26,34,.08);border-radius:20px;padding:22px;box-shadow:0 10px 28px rgba(15,17,21,.06)}
+.card.dark{background:linear-gradient(180deg,#171c26,#12161f);color:var(--text);border:1px solid var(--border)}
+.card h3{margin:0 0 10px;font-size:1.15rem}
+.card ul{padding-left:18px;margin:0}
+.card p, .card li{color:inherit}
+.dark-band{background:linear-gradient(180deg,#11151e,#191f2b);color:var(--text)}
+.dark-band h2,.dark-band h3{color:var(--text)}
+.dark-band p{color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:10px;list-style:none;padding:0;margin:18px 0 0}
+.chips li{padding:8px 12px;border-radius:999px;background:#fff;border:1px solid rgba(18,22,31,.08);font-size:.95rem}
+.dark-band .chips li{background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.12);color:#fff}
+.meta{color:#6b7280;font-size:.95rem}
+.breadcrumbs{font-size:.92rem;margin:0 0 20px;color:#8f96a3}
+.breadcrumbs a{color:inherit}
+footer{background:#10131a;color:#d6d1c8;padding:28px 0}
+footer h2{margin:0 0 10px;font-size:1.1rem;color:#fff}
+footer p{margin:5px 0}
+.cta-panel{background:linear-gradient(135deg,#fffaf0,#f7efe0);border:1px solid rgba(139,94,26,.16);border-radius:24px;padding:28px}
+.visual-list li{margin-bottom:8px}
+@media (max-width:720px){.hero{padding-top:48px}.topnav{gap:8px}.wrap{padding:0 18px}}
 </style>
-  <script type="application/ld+json">{
-  "@context":"https://schema.org",
-  "@type":"WebSite",
-  "name":"WWC",
-  "url":"https://example.com/",
-  "potentialAction":{
-    "@type":"SearchAction",
-    "target":"https://example.com/blog/?q={search_term_string}",
-    "query-input":"required name=search_term_string"
-  }
-}</script>
+
+  
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "WWC Global Education & Career Platform", "url": "https://example.com/"}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "WWC", "url": "https://example.com/", "potentialAction": {"@type": "SearchAction", "target": "https://example.com/blog/?q={search_term_string}", "query-input": "required name=search_term_string"}}</script>
 </head>
 <body>
-  <header>
-    <h1>WWC Yurtdışı Eğitim Danışmanlığı</h1>
-    <p>SEO ve güven odaklı yurtdışı eğitim platformu</p>
-    <p class="meta">Son güncelleme: 2026-05-26</p>
+  <header class="hero">
+    <div class="wrap">
+      <ul class="topnav"><li><a href="/yurtdisi-egitim/">Yurtdışı Eğitim</a></li><li><a href="/yurtdisi-kariyer/">Yurtdışı Kariyer</a></li><li><a href="/gastronomi-kariyerleri/">Gastronomi Kariyerleri</a></li><li><a href="/michelin-restoran-kariyerleri/">Michelin Restoran Kariyerleri</a></li><li><a href="/yurtdisi-staj-programlari/">Yurtdışı Staj Programları</a></li><li><a href="/sef-kariyer-programlari/">Şef Kariyer Programları</a></li><li><a href="/hospitality-careers/">Hospitality Careers</a></li><li><a href="/ulkeler/">Ülkeler</a></li><li><a href="/blog/">Blog</a></li><li><a href="/basvuru/">Başvuru</a></li></ul>
+      <div class="kicker">Global Culinary & Career Opportunities</div>
+      <h1>Michelin Restaurant Career Programs ve Global Career Opportunities</h1>
+      <p>Uluslararası eğitim + kariyer + gastronomi + çalışma fırsatları platformu olarak Amerika, Almanya ve İspanya’daki premium mutfak kariyerlerini öne çıkarır.</p>
+      <div class="buttons">
+        <a class="button" href="/basvuru/">Başvuru Yap</a>
+        <a class="button secondary" href="/iletisim/">Kariyer Uygunluk Analizi</a>
+      </div>
+    </div>
   </header>
-  <nav>
-  <h2>Site Haritası</h2>
-  <ul><li><a href="/yurtdisi-egitim/">/yurtdisi-egitim/</a></li><li><a href="/dil-okullari/">/dil-okullari/</a></li><li><a href="/work-and-study/">/work-and-study/</a></li><li><a href="/work-and-travel/">/work-and-travel/</a></li><li><a href="/universite/">/universite/</a></li><li><a href="/master/">/master/</a></li><li><a href="/vize-danismanligi/">/vize-danismanligi/</a></li><li><a href="/ulkeler/">/ulkeler/</a></li><li><a href="/blog/">/blog/</a></li><li><a href="/basvuru/">/basvuru/</a></li><li><a href="/hakkimizda/">/hakkimizda/</a></li><li><a href="/iletisim/">/iletisim/</a></li><li><a href="/kanada-dil-okullari/">/kanada-dil-okullari/</a></li><li><a href="/ingiltere-dil-okullari/">/ingiltere-dil-okullari/</a></li><li><a href="/malta-dil-okullari/">/malta-dil-okullari/</a></li><li><a href="/irlanda-dil-okullari/">/irlanda-dil-okullari/</a></li><li><a href="/dubai-dil-okullari/">/dubai-dil-okullari/</a></li><li><a href="/kanada-work-and-study/">/kanada-work-and-study/</a></li><li><a href="/almanya-ausbildung/">/almanya-ausbildung/</a></li><li><a href="/almanya-81a-calisma-izni/">/almanya-81a-calisma-izni/</a></li><li><a href="/polonya-universite/">/polonya-universite/</a></li><li><a href="/ekibimiz/">/ekibimiz/</a></li><li><a href="/danismanlarimiz/">/danismanlarimiz/</a></li><li><a href="/anlasmali-okullar/">/anlasmali-okullar/</a></li><li><a href="/basari-hikayeleri/">/basari-hikayeleri/</a></li><li><a href="/ogrenci-yorumlari/">/ogrenci-yorumlari/</a></li><li><a href="/vize-basari-orani/">/vize-basari-orani/</a></li><li><a href="/sertifikalar/">/sertifikalar/</a></li><li><a href="/yasal-bilgilendirme/">/yasal-bilgilendirme/</a></li><li><a href="/gizlilik-politikasi/">/gizlilik-politikasi/</a></li><li><a href="/kvkk/">/kvkk/</a></li><li><a href="/cerez-politikasi/">/cerez-politikasi/</a></li><li><a href="/ulkeler/kanada/">/ulkeler/kanada/</a></li><li><a href="/ulkeler/ingiltere/">/ulkeler/ingiltere/</a></li><li><a href="/ulkeler/amerika/">/ulkeler/amerika/</a></li><li><a href="/ulkeler/almanya/">/ulkeler/almanya/</a></li><li><a href="/ulkeler/malta/">/ulkeler/malta/</a></li><li><a href="/ulkeler/irlanda/">/ulkeler/irlanda/</a></li><li><a href="/ulkeler/dubai/">/ulkeler/dubai/</a></li><li><a href="/ulkeler/polonya/">/ulkeler/polonya/</a></li><li><a href="/blog/kanada-ogrenci-vizesi/">/blog/kanada-ogrenci-vizesi/</a></li><li><a href="/blog/ingiltere-dil-okulu-fiyatlari/">/blog/ingiltere-dil-okulu-fiyatlari/</a></li><li><a href="/blog/malta-dil-okulu-ne-kadar/">/blog/malta-dil-okulu-ne-kadar/</a></li><li><a href="/blog/almanya-81a-nedir/">/blog/almanya-81a-nedir/</a></li><li><a href="/blog/work-and-study-nedir/">/blog/work-and-study-nedir/</a></li><li><a href="/blog/yurtdisi-egitim-maliyetleri/">/blog/yurtdisi-egitim-maliyetleri/</a></li><li><a href="/blog/kanada-yasam-maliyeti/">/blog/kanada-yasam-maliyeti/</a></li><li><a href="/blog/dil-okulu-vizesi-reddi-nedenleri/">/blog/dil-okulu-vizesi-reddi-nedenleri/</a></li></ul>
-</nav>
-<section>
-  <h2>Site Konumlandırması</h2>
-  <p>Yurtdışı eğitim ve çalışma programlarında ülke, okul, vize ve başvuru sürecini E-E-A-T odaklı, şeffaf ve uzman danışmanlık modeliyle yöneten platform.</p>
-</section>
-  <section class="cta">
-  <h2>Hemen Danışmanlık Alın</h2>
-  <ul>
-    <li>Ücretsiz Uygunluk Analizi Al</li>
-    <li>Program ve Ülke Karşılaştırması İste</li>
-    <li>Vize Riskini Önceden Analiz Edelim</li>
-    <li>Danışmanla Görüş</li>
-    <li>WhatsApp’tan Başvur</li>
-  </ul>
-</section>
-  <section>
-  <h2>Şirket Bilgileri</h2>
-  <p>Adres: İstanbul, Türkiye</p>
-  <p>Telefon: +90 212 000 00 00</p>
-  <p>Vergi No: 0000000000</p>
-</section>
+  <main>
+    <section><div class="wrap"><h2>Ana Marka Positioning</h2><p class="lead">Site artık yalnızca yurtdışı eğitim değil; uluslararası eğitim + kariyer + gastronomi + çalışma fırsatları platformu olarak konumlanıyor.</p><ul class="chips"><li>Global Education &amp; Career Platform</li><li>Yurtdışı Eğitim ve Kariyer Merkezi</li><li>Uluslararası Eğitim, Staj ve Çalışma Fırsatları</li><li>Global Culinary &amp; Career Opportunities</li><li>Michelin Restaurant Career Programs</li></ul></div></section><section><div class="wrap"><h2>Yeni Ana Menü Alanları</h2><p class="lead">Premium kariyer yolculuklarını öne çıkaran yeni menü başlıkları ana sitede yer alır.</p><div class="grid"><article class="card"><h3>Yurtdışı Kariyer</h3><p>Global kariyer rotaları, uluslararası iş fırsatları ve aday değerlendirme süreci.</p></article><article class="card"><h3>Gastronomi Kariyerleri</h3><p>Fine dining, culinary placement ve profesyonel mutfak kariyeri sayfaları.</p></article><article class="card"><h3>Michelin Restoran Kariyerleri</h3><p>Michelin yıldızlı restoranlarda kariyer, staj ve chef placement içeriği.</p></article><article class="card"><h3>Yurtdışı Staj Programları</h3><p>Profesyonel mutfak ve hospitality odaklı staj programları.</p></article><article class="card"><h3>Şef Kariyer Programları</h3><p>Commis chef, sous chef, pastry chef ve mutfak öğrencileri için kariyer yolları.</p></article><article class="card"><h3>Hospitality Careers</h3><p>Luxury hospitality ve fine dining placement odaklı içerik kümeleri.</p></article></div></div></section><section class="dark-band"><div class="wrap"><h2>Michelin Yıldızlı Restoranlarda Uluslararası Kariyer Fırsatları</h2><p class="lead">Amerika, Almanya ve İspanya’daki seçkin restoranlarda kariyer, staj ve profesyonel mutfak deneyimi fırsatları.</p><div class="grid"><article class="card dark"><h3>Fine dining kariyer fırsatları</h3><p>Michelin standardında mutfaklarda uzun vadeli kariyer progression ve chef placement fırsatları.</p></article><article class="card dark"><h3>Uluslararası mutfak deneyimi</h3><p>Amerika, Almanya ve İspanya’da modern mutfak operasyonları, servis disiplini ve takım kültürü.</p></article><article class="card dark"><h3>Michelin restoran çalışma kültürü</h3><p>Precision, speed, plating excellence ve premium guest experience odaklı sistemler.</p></article><article class="card dark"><h3>Şef yerleştirme süreçleri</h3><p>Başvuru ön elemesi, portfolyo değerlendirmesi, role matching ve işveren iletişimi.</p></article><article class="card dark"><h3>Gastronomi öğrencileri için kariyer yolları</h3><p>Internship, stage, graduate pathway ve chef development rotaları.</p></article><article class="card dark"><h3>Hospitality &amp; culinary placement</h3><p>Restaurant, luxury hotel ve culinary lab ortamlarında uluslararası yerleştirme yaklaşımı.</p></article></div><div class="grid"><article class="card dark"><h3>Visual önerileri</h3><ul><li>Fine dining kitchen</li><li>Michelin plating</li><li>Profesyonel şef ekipleri</li><li>Modern restoran mutfakları</li><li>Gastronomy lifestyle imagery</li></ul></article></div>
+<div class="cta-panel">
+  <h3>Bir sonraki adımı birlikte planlayalım</h3>
+  <p>Başvuru öncesi uygunluk analizi, kariyer yolculuğu planı ve vize risk değerlendirmesiyle süreci şeffaf şekilde yönetin.</p>
+  <div class="buttons">
+    <a class="button" href="/basvuru/">Başvuru Yap</a>
+    <a class="button secondary" href="/iletisim/">Kariyer Uygunluk Analizi</a>
+    <a class="button secondary" href="/sef-kariyer-programlari/">Şef Programlarını İncele</a>
+    <a class="button secondary" href="/iletisim/">Ücretsiz Ön Görüşme</a>
+  </div>
+</div>
+</div></section><section><div class="wrap"><h2>Hızlı Erişim</h2><p class="lead">Kariyer odaklı yeni URL yapısı ve landing page kurgusu.</p><div class="grid"><article class="card"><h3>/gastronomi-kariyerleri/</h3><p>Premium gastronomi kariyer merkezi.</p></article><article class="card"><h3>/michelin-restoran-kariyerleri/</h3><p>Michelin kariyer programları landing page’i.</p></article><article class="card"><h3>/amerika-sef-is-ilanlari/</h3><p>ABD chef opportunities ve visa sponsorship odaklı sayfa.</p></article><article class="card"><h3>/almanya-sef-kariyerleri/</h3><p>Almanya fine dining ve Ausbildung pathway içeriği.</p></article><article class="card"><h3>/ispanya-michelin-restoranlari/</h3><p>İspanya Mediterranean fine dining fırsatları.</p></article><article class="card"><h3>/international-chef-programs/</h3><p>Global chef programlarını İngilizce arayan kullanıcılar için landing page.</p></article></div></div></section>
+  </main>
+  
+<footer>
+  <div class="wrap">
+    <h2>WWC · Global Education & Career Platform</h2>
+    <p>Adres: İstanbul, Türkiye</p>
+    <p>Telefon: +90 212 000 00 00</p>
+    <p>E-posta: info@example.com</p>
+    <p>Vergi No: 0000000000</p>
+  </div>
+</footer>
+
 </body>
 </html>

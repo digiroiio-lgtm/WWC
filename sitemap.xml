@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <sitemap><loc>https://sefrotasi.com/sitemap-pages.xml</loc></sitemap>
-  <sitemap><loc>https://sefrotasi.com/sitemap-countries.xml</loc></sitemap>
-  <sitemap><loc>https://sefrotasi.com/sitemap-programs.xml</loc></sitemap>
-  <sitemap><loc>https://sefrotasi.com/sitemap-blog.xml</loc></sitemap>
-  <sitemap><loc>https://sefrotasi.com/sitemap-authors.xml</loc></sitemap>
+  <sitemap><loc>https://sefrotasi.com/sitemap-pages.xml</loc><lastmod>2026-05-26</lastmod></sitemap>
+  <sitemap><loc>https://sefrotasi.com/sitemap-countries.xml</loc><lastmod>2026-05-26</lastmod></sitemap>
+  <sitemap><loc>https://sefrotasi.com/sitemap-programs.xml</loc><lastmod>2026-05-26</lastmod></sitemap>
+  <sitemap><loc>https://sefrotasi.com/sitemap-blog.xml</loc><lastmod>2026-05-26</lastmod></sitemap>
+  <sitemap><loc>https://sefrotasi.com/sitemap-authors.xml</loc><lastmod>2026-05-26</lastmod></sitemap>
 </sitemapindex>

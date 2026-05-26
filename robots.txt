@@ -7,4 +7,4 @@ Disallow: /thank-you/
 Disallow: /basvuru/basarili/
 Disallow: /*?utm_
 Disallow: /*?gclid=
-Sitemap: https://example.com/sitemap.xml
+Sitemap: https://sefrotasi.com/sitemap.xml
